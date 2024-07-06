@@ -1,0 +1,97 @@
+@import "~animate.css/animate.css";
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to bottom, #b1dfdfef, hsl(0, 35%, 85%));
+  background-size: cover;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  border-radius: 10px;
+  border: 1px solid #fff7f1;
+  padding: 45px;
+  background-color: #fff7f1;
+  animation: fadeInDown 1s ease;
+}
+
+.form input {
+  margin-left: 0;
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  animation: bounceInLeft 1.1s ease;
+}
+
+.form input:hover{
+  border: 1px solid #000000;
+}
+
+.super-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 1px solid #ccc;
+  padding: auto;
+  background-image: linear-gradient(to bottom, #b1dfdfef, hsl(0, 35%, 85%));
+}
+
+.form .input-container {
+  font-size:small;
+  margin-bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInUp 1s ease;
+}
+
+.form label {
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  animation: fadeIn 1s ease;
+}
+
+.button-Type1 {
+  min-width: 150px;
+  height: 40px;
+  color: #fff7f1;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #424874;
+  background: #424874;
+}
+
+.button-container :hover {
+  background: #fff7f1;
+  color: #424874;
+}
+
+a {
+  text-decoration: none;
+  color: #433c87;
+}
+
+@media (max-width: 400px) {
+  .form {
+    width: 65%;
+  }
+}

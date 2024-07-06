@@ -1,0 +1,28 @@
+// port
+PORT=port_for_server
+
+// mongodb Atlas
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_CLUSTER=your_cluster_name
+
+// admin access
+ADMIN_USERNAME=admin_username
+ADMIN_PASSWORD=admin_password
+
+// for auth middleware
+JWT_SECRET=your_secret_key
+
+// for smtp authentication (cc server)
+EMAIL_ID=your_email_id
+EMAIL_PASS=your_password
+
+// RazorPay Api Keys
+KEY_ID=razorpay_key_id
+KEY_SECRET=razorpay_key_secret
+WEBHOOK_SECRET=razorpay_webhook_secret  
+
+FRONTEND_URL=frontend_url  
+WS_URL=websocket_url
+
+DOMAIN=your_backend_domain

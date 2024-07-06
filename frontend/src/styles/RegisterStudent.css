@@ -1,0 +1,108 @@
+.OTP-button_washer{
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #f8dada;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  color: white;
+  background-image: linear-gradient(to bottom, black, #302b2b); 
+}
+.OTP-button_washer:hover {
+  background-image: linear-gradient(to bottom, rgb(51, 48, 48), #645f5f);
+  cursor: pointer;
+}
+.dropdown{
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-top: 7px;
+}
+.dropdown-container{
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+}
+.messages_washer {
+  margin-top: 10px;
+}
+
+.success_washer,
+.error_washer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.arrow_washer {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.arrow_washer:hover {
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.arrow_washer:after {
+  position: absolute;
+  display: flex;
+  content: "";
+  color: rgb(14, 11, 11);
+  width: 20px;
+  height: 15px;
+  border: solid 1px;
+  top: -1px;
+  border-bottom: solid 2px;
+  transform: translateX(4px);
+}
+
+.arrow_washer:before {
+  position: absolute;
+  display: flex;
+  content: "";
+  color: rgb(15, 13, 13);
+  width: 8px;
+  height: 8px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  top: 50%;
+  left: 2px;
+  transform-origin: 0% 0%;
+  transform: rotatez(-45deg);
+}
+#OTP_Container{
+  margin-left: 14px;
+}
+#form_Student {
+ height: 85%;
+}
+
+
+@media (max-width: 500px) {
+  #form_Student {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: 99%;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .back-button-container_washer {
+    width: 97%;
+  }
+  .registerbutton{
+    min-width: 140px;
+  }
+  
+}
